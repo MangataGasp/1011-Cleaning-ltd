@@ -34,7 +34,7 @@ export default function Reviews() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.6 }}
-              className="text-xl uppercase font-mono text-[#10bd85]"
+              className="uppercase mb-4 text-sm font-mono tracking-wide text-[#10bd85]"
             >
               04 - Reviews
             </motion.p>

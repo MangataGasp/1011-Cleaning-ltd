@@ -42,7 +42,7 @@ export default function Faq() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.6 }}
-              className="uppercase text-[#10bd85] font-mono"
+              className="uppercase mb-4 text-sm font-mono tracking-wide text-[#10bd85]"
             >
               05 - Faq
             </motion.p>
