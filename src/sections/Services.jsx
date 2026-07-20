@@ -8,13 +8,13 @@ const MotionLink = motion(Link);
 const SERVICES = [
   {
     n: "01",
-    title: "Residential Deep Clean",
+    title: "Deep Cleaning",
     desc: "Every surface, corner and skirting board — the clean you do twice a year, minus the weekend you lose doing it.",
     tag: "Full Deep Clean",
   },
   {
     n: "02",
-    title: "Move-In / Move-Out",
+    title: "Events Cleaning",
     desc: "Empty rooms clean fast. We get the new place ready before your furniture arrives, or the old one spotless for handover.",
     tag: "Fast Turnaround",
   },
@@ -26,13 +26,13 @@ const SERVICES = [
   },
   {
     n: "04",
-    title: "Post-Construction",
+    title: "Post-Construction/Renovation",
     desc: "Dust, cement film, paint spatter, sticker residue. We hand the space back looking finished, not just finished-building.",
     tag: "Dust-Free Finish",
   },
   {
     n: "05",
-    title: "Airbnb & Short-let",
+    title: "Fumigation",
     desc: "Same-day turnovers between guests, with a photo checklist sent to you before the next booking checks in.",
     tag: "Same-Day Turnover",
   },

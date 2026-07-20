@@ -1,16 +1,11 @@
-# React + Vite
+logo
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+about us:
+1011 Cleaning Services Limited started with a vision in 2020 and officially launched in December 2023. We've dedicated ourselves to helping families, businesses, and organizations maintain spotless, healthier, and more comfortable environments.
 
-Currently, two official plugins are available:
+1011 Cleaning started with a simple frustration: booking a cleaner in Abuja shouldn't feel like a
+              gamble. So we built a team you can actually rely on — vetted, trained, and dressed like professionals
+              because that's what they are. Today we look after luxury homes, short-lets and corporate offices
+              across the FCT, one spotless handover at a time.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Before launching, our team underwent extensive professional training on advanced cleaning techniques, fumigation protocols, and eco-friendly practices.

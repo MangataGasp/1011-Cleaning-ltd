@@ -7,10 +7,10 @@ import { IoCheckmarkOutline } from "react-icons/io5";
 const MotionLink = motion(Link);
 
 const STATS = [
-  { num: "500+", label: "Homes & offices serviced" },
+  { num: "2000+", label: "Homes Cleaned" },
+  {num: "200+", label: "Coporate Client"},
   { num: "4.9/5", label: "Average client rating" },
-  { num: "3 hrs", label: "Average booking response" },
-  { num: "6", label: "Districts covered across Abuja" },
+  { num: "30+", label: "Professional Staffs" },
 ];
 
 export default function Hero() {
@@ -37,7 +37,7 @@ export default function Hero() {
           >
             Redefining luxury
             <br />
-            with clean excellence.
+            with cleaning
           </motion.h1>
 
           <motion.p
@@ -45,10 +45,9 @@ export default function Hero() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.15 }}
             transition={{ duration: 0.7, delay: 0.16 }}
-            className="text-[17px] text-body text-[#787773] max-w-115 mb-8"
+            className="text-[20px] text-body text-[#787773] max-w-115 mb-8"
           >
-            We take the stress out of keeping your space spotless — from luxury homes in Maitama to corporate
-            offices in the CBD. Book in minutes, hand us the keys, relax for hours.
+           Experience premium cleaning services designed for homes, offices and commercial spaces
           </motion.p>
 
           <motion.div
