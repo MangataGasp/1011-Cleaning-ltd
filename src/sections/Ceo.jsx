@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import { FaLinkedin, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { RxArrowLeft } from "react-icons/rx";
 
 const MotionLink = motion(Link);
 
@@ -52,7 +53,8 @@ export default function Founder() {
   return (
     <div>
       {/* intro */}
-      <div className="py-14">
+      <div className="py-14 container mx-auto">
+        <Link to="/" className="uppercase cursor-pointer font-mono text-sm text-[#10bd85] tracking-wide underline inline-flex items-center fixed  top-0 left-0 z-50 bg-white py-3 w-full"><RxArrowLeft className="underline" /> Go Back Home</Link>
         <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
