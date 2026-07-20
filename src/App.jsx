@@ -10,6 +10,9 @@ import Contact from './sections/Contact'
 import Footer from './components/Footer'
 
 const App = () => {
+   useEffect(() => {
+      window.scrollTo(0, 0)
+    }, []);
   return (
     <div className='bg-[#f7f9f6]'>
       <Nav />
