@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { FaLinkedin, FaInstagram, FaXTwitter } from "react-icons/fa6";
@@ -46,6 +46,9 @@ const SOCIALS = [
 ];
 
 export default function Founder() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
   return (
     <div>
       {/* intro */}
